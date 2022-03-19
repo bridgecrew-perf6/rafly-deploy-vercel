@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Ca va! Je m'appelle to <a href="https://nextjs.org">Rafly</a>
+          Ca va! Je m`appelle to <a href="https://nextjs.org">Rafly</a>
         </h1>
 
         <p className={styles.description}>
@@ -23,12 +23,12 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Papers</h2>
+            <h2>Papers `&rarr;`</h2>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Lesson</h2>
+            <h2>Lesson `&rarr;`</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
@@ -36,7 +36,7 @@ export default function Home() {
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-            <h2>Example Gratia</h2>
+            <h2>Example Gratia `&rarr;`</h2>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
@@ -44,7 +44,7 @@ export default function Home() {
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h2>Deploy</h2>
+            <h2>Deploy `&rarr;`</h2>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
@@ -58,7 +58,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by {' '}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>

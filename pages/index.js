@@ -13,11 +13,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Ca va! Je m'appelle to <a href="https://nextjs.org">Rafly</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          This is Heroku Deployment {' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
 
